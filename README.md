@@ -1,4 +1,4 @@
-# Drug Classification using Various Machine Learning Models and Cross-Validation
+# Drug Classification using Various Machine Learning Models and Cross-Validation and Bootstrap
 
 A machine learning project that explores and compares multiple classification algorithms to predict drug types based on patient data. This repository uses the **Drug200 dataset** and implements preprocessing, model training, evaluation, and cross-validation.  
 
@@ -38,14 +38,15 @@ The dataset **`drug200.xls`** contains information on patients and the type of d
 
 This project builds and evaluates the following machine learning models:
 
-- Logistic Regression  
-- Decision Tree Classifier  
-- Random Forest Classifier  
+- Linear Discriminant Analysis
+- Higher Order LDA
+- Quadratic Discriminant Analysis
+- Logistic Regression   
 - K-Nearest Neighbors (KNN)  
 - Support Vector Machine (SVM)  
-- Naive Bayes  
-- *(Optional)* Ensemble or advanced models as needed  
+- Naive Bayes
 
-Each model’s performance is evaluated using cross-validation for reliable comparison.
+As well as demonstrating Bootstrap and Cross Validation techniques
+
 
 ---
